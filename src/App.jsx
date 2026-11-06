@@ -1,4 +1,5 @@
-import { useMemo, useRef, useState } from "react";
+// Keep React in scope for the classic JSX transform used by this Vite setup.
+import React, { useMemo, useRef, useState } from "react";
 import {
   Activity, ArrowDownRight, ArrowUpRight, Bell, BriefcaseBusiness, ChartNoAxesCombined,
   Check, ChevronDown, CircleHelp, Command, FileText, LayoutDashboard, Package,
